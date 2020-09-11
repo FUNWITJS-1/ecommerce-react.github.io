@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 import {BrowserRouter as Router , Switch, Route} from 'react-router-dom';
 import '../css/App.css';
 import {Redirect} from 'react-router-dom';
-import 'mdbreact/dist/css/mdb.css';
+import 'mdbreact/dist/css/mdb.css'
 class App extends Component{
     componentDidMount(){
         let data=this.props.dispatch(fetchProducts());
