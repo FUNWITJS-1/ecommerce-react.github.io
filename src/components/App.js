@@ -1,11 +1,11 @@
 import {connect} from 'react-redux';
 
-import {Home, Cart, Navbar} from '/index';
+import {Home, Cart, Navbar} from './index';
 import React, {Component} from 'react';
-import {fetchProducts} from '/actions/products';
+import {fetchProducts} from '../actions/products';
 import PropTypes from 'prop-types';
 import {BrowserRouter as Router , Switch, Route} from 'react-router-dom';
-import '/css/App.css';
+import '../css/App.css';
 import {Redirect} from 'react-router-dom';
 import 'mdbreact/dist/css/mdb.css';
 class App extends Component{
