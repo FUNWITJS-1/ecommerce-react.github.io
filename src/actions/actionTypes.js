@@ -1,0 +1,6 @@
+export const GET_PRODUCTS='GET_PRODUCTS';
+export const INCREMENT_CART='INCREMENT_CART';
+export const DECREMENT_CART='DECREMENT_CART';
+export const ADDITEM='ADDITEM';
+export const REMOVEITEM='REMOVEITEM';
+export const SORT_BY_PRICE='SORT_BY_PRICE';

@@ -1,0 +1,135 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.box{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap
+}
+.material-icons{
+  font-size: 2.4em;
+  cursor: pointer;
+}
+.card{
+  width: 300px;
+}
+.card .card-image .card-title{
+  color: black;
+  font-weight: 400
+}
+.cart{
+  margin-top:40px;
+}
+.ProductContainer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+.product-list ul {
+  display: flex;
+  flex-direction:row;
+  list-style: none;
+  justify-content: space-around;
+  
+}
+.product-list ul li img{
+  width:100px;
+  height: 100px;
+}
+.ProductContainer-items.avatar .title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ee6e73;
+  display: block;
+  margin-bottom: 20px;
+  
+}
+.ProductContainer .ProductContainer-items img{
+  width: 150px;
+  margin-right: 25px;
+}
+.item-desc{
+  align-self:center;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.right a{
+  
+  text-decoration: none;
+  color: white;
+}
+.right li{
+  
+  margin:0px 10px;
+  color: white;
+}
+.nav-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: cadetblue;
+}
+.brand-logo
+{
+  text-decoration: none;
+  color: white;
+  
+}
+#brand{
+  margin: auto 10px;
+}
+.ProductsHeader{
+text-align: center;
+}
+
+.addtocart{
+  display: inline-block;
+  border: 1px; 
+  border-radius: 2px;
+  text-decoration: none;
+  color: white;
+  background-color: cadetblue;
+  width: fit-content;
+
+}
