@@ -16,21 +16,45 @@ function remove(products){
 export default function cart(state=intialState, action){
     console.log("action cart", action, state);
    //state=state.state.state;
+   let obj={};
     switch(action.type){
         case ADDITEM:{
-            console.log("this.state", state);
+            console.log("this.state", state.state.state);
             //NotificationManager.info('Info message');
+            if(state.state.state.addedItems!=undefined){
             const index=state.state.state.addedItems.findIndex(item=>item.title===action.product.title);
+
             if(index==-1)
             {
                 state.state.state.addedItems.push(action.product);
+            
             }
-            let obj={
+            
+            obj={
+                ...state,
+            //   addedItems:[...state.state.state.addedItems,state.state.state.addedItems.push(action.product)],
+                 ItemsCount:state.state.state.addedItems.length
+             };
+             console.log("obj", obj);
+        }
+        else{
+            if(state.state.state.state.addedItems!=undefined){
+                const index=state.state.state.state.addedItems.findIndex(item=>item.title===action.product.title);
+    
+                if(index==-1)
+                {
+                    state.state.state.state.addedItems.push(action.product);
+                
+                }
+            }
+        
+            obj={
                ...state,
            //   addedItems:[...state.state.state.addedItems,state.state.state.addedItems.push(action.product)],
-                ItemsCount:state.state.state.addedItems.length
+                ItemsCount:state.state.state.state.addedItems.length
             };
             console.log("obj", obj);
+        }
             return obj
         }
             case REMOVEITEM:{

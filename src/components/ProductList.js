@@ -29,6 +29,13 @@ class ProductList extends Component{
         //addToCart(product);
     
     }
+    componentDidMount()
+    {
+        const Items=this.props.products;
+        if(Items!=undefined){
+        this.setState({products:Items});
+         }
+    }
     sortProducts(products){
         this.props.dispatch(sort(products));
         this.forceUpdate();
