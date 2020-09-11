@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/ecommerce-react.github.io/static/css/main.69a10009.chunk.css",
+    "main.js": "/ecommerce-react.github.io/static/js/main.d18c4d13.chunk.js",
+    "main.js.map": "/ecommerce-react.github.io/static/js/main.d18c4d13.chunk.js.map",
+    "runtime-main.js": "/ecommerce-react.github.io/static/js/runtime-main.fdd88b6b.js",
+    "runtime-main.js.map": "/ecommerce-react.github.io/static/js/runtime-main.fdd88b6b.js.map",
+    "static/css/2.a3cbbf5c.chunk.css": "/ecommerce-react.github.io/static/css/2.a3cbbf5c.chunk.css",
+    "static/js/2.480cccf5.chunk.js": "/ecommerce-react.github.io/static/js/2.480cccf5.chunk.js",
+    "static/js/2.480cccf5.chunk.js.map": "/ecommerce-react.github.io/static/js/2.480cccf5.chunk.js.map",
+    "index.html": "/ecommerce-react.github.io/index.html",
+    "precache-manifest.c8f9a70ba42d6de6277211d9e7974d71.js": "/ecommerce-react.github.io/precache-manifest.c8f9a70ba42d6de6277211d9e7974d71.js",
+    "service-worker.js": "/ecommerce-react.github.io/service-worker.js",
+    "static/css/2.a3cbbf5c.chunk.css.map": "/ecommerce-react.github.io/static/css/2.a3cbbf5c.chunk.css.map",
+    "static/css/main.69a10009.chunk.css.map": "/ecommerce-react.github.io/static/css/main.69a10009.chunk.css.map",
+    "static/js/2.480cccf5.chunk.js.LICENSE.txt": "/ecommerce-react.github.io/static/js/2.480cccf5.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/ecommerce-react.github.io/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/font-awesome.min.css": "/ecommerce-react.github.io/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/notifications.css": "/ecommerce-react.github.io/static/media/notification.c0d3c94c.eot"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fdd88b6b.js",
+    "static/css/2.a3cbbf5c.chunk.css",
+    "static/js/2.480cccf5.chunk.js",
+    "static/css/main.69a10009.chunk.css",
+    "static/js/main.d18c4d13.chunk.js"
+  ]
+}
